@@ -2,6 +2,6 @@
 <ruleset documentation_url="https://github.com/confused-Techie/Bad_Encounters_Ruleset">
   <location url="https://raw.githubusercontent.com/confused-Techie/Bad_Encounters_Ruleset/main/" prefix="Bad_Encounters"/>
   <files>
-    <file description="bad_ips" url="inline::rules/bad_ips.rules">Bad_Encounters.bad_ips.rules</file>
+    <file description="bad_ips" url="https://raw.githubusercontent.com/confused-Techie/Bad_Encounters_Ruleset/main/rules/bad_ips.rules">Bad_Encounters.bad_ips.rules</file>
   </files>
 </ruleset>
