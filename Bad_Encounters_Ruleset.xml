@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset documentation_url="">
+  <location url="" prefix="Bad_Encounters"/>
+  <file>
+    <file description="bad_ips" url="inline::rules/bad_ips.rules">Bad_Encounters.bad_ips.rules</file>
+  </file>
+</ruleset>
