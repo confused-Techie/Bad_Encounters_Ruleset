@@ -1,2 +1,2 @@
 # These rules will be focused on alerting traffic from any Bad IP Addresses I've seen
-alert ip 172.70.143.44 any -> any any (msg:"MALICIOUS IP Likely Word Press Exploits"; target:[src_ip|dest_ip]; classtype:bad-ip; sid:800010000; rev:1)
+alert ip 172.70.143.44 any -> any any (msg:"MALICIOUS IP Likely Word Press Exploits"; target:[src_ip|dest_ip]; classtype:bad-ip; sid:800010000; rev:1;)
