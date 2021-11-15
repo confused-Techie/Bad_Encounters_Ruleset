@@ -1,5 +1,5 @@
 # These rules will be focused on alerting traffic from any Bad IP Addresses I've seen
-alert ip [172.70.143.44,172.70.142.145] any -> any any (msg:"MALICIOUS IP Likely Word Press Exploits"; target:[src_ip|dest_ip]; classtype:bad-ip; sid:800010000; rev:2;)
+alert ip [172.70.143.44,172.70.142.145,52.162.241.82] any -> any any (msg:"MALICIOUS IP Likely Word Press Exploits"; target:[src_ip|dest_ip]; classtype:bad-ip; sid:800010000; rev:2;)
 
 alert ip [104.248.125.15,108.162.215.165,172.69.34.231,172.69.62.197,172.70.82.169,172.70.98.169,185.254.31.134,172.70.34.169,172.70.98.157] any -> any any (msg:"MALICIOUS IP Likely Request Hidden Environment Info"; target:[src_ip|dest_ip]; classtype:bad-ip; sid:800020000; rev:1;)
 

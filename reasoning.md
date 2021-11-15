@@ -8,6 +8,8 @@ IP: 172.70.143.44 || Source-Port: 59650 || https_url: //wordpress/xp-includes/wl
 
 IP: 172.70.142.145 || Source-Port: 16592 || https_url: //wordpress/wp-includes/wlwmanifest.xml
 
+IP: 52.162.241.82 || Source-Port: na || https_url: na 
+
 ## Malicious IP Likely Request Hidden Environment Info SID: 800020000
 
 Collection of IP's scanning public resources in an attempt to request hidden environment files.
@@ -49,4 +51,4 @@ IP: 172.70.34.173 || Source-Port: 59276 || https_url: /vendor/phpunit/phpunit/sr
 
 Collection of IP's attempting to execute Shell Command Attack
 
-IP: 45.146.164.110 || Source-Port: 52144 || https_url: /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh 
+IP: 45.146.164.110 || Source-Port: 52144 || https_url: /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh

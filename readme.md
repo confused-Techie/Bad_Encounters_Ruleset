@@ -22,3 +22,8 @@ curl https://raw.githubusercontent.com/confused-Techie/Bad_Encounters_Ruleset/ma
 * Here you can enable Bad_Encounters/bad_ips and of course start the download by hitting "Download and Update Rules"
 
 * Keep in mind that by default these will only alert and do nothing to block. Blocking should be enabling by creating a Policy that applies to this ruleset.
+
+
+## Contributing
+
+Feel free to add anything that has affecting your personal network. Just ensure to also add to the reasoning file.
